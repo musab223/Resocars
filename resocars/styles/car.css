@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Section 1: Ferrari 296 GTB Introduction */
+.ferrari-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.ferrari-section h1 {
+    font-size: 2.5em;
+    color: #d40000; /* Ferrari red */
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.specs {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.highlight-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 22%;
+}
+.highlight-item img{
+    width: 100%;
+}
+
+.highlight-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.cta {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
+
+/* Section 2: Benefits */
+.benefits-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit-item {
+
+    text-align: center;
+    padding: 10px;
+    background: #cbc8c8;
+    margin: 0 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.benefit-item h2 {
+    font-size: 2em;
+    margin: 0;
+    color: #e59d54; /* Ferrari red */
+}
+
+.benefit-item p {
+    font-size: 1em;
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* Section 3: Contact */
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 100%;
+    background: #243517;
+    color: white;
+}
+
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: wheat;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact-info {
+    font-size: 1.1em;
+    color: #e59d54;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info strong {
+    color:  #e59d54; 
+}
+
+/* Section 4: Rental Information */
+.rental-info-section {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px 50px;    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rental-info-section h1 {
+    font-size: 2em;
+    color: #e59d54; /* Ferrari red */
+    margin-bottom: 20px;
+}
+
+.rental-info-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.rental-packages {
+    margin-bottom: 30px;
+}
+
+.rental-packages h2 {
+    font-size: 1.5em;
+    color: #e59d54; /* Ferrari red */
+    margin-bottom: 15px;
+}
+
+.package {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.package p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.package strong {
+    color: #e59d54; /* Ferrari red */
+}
+
+.monthly-package h2 {
+    font-size: 1.5em;
+    color: #e59d54; /* Ferrari red */
+    margin-bottom: 15px;
+}
+
+.monthly-package p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.notice {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imageContainer img{
+    margin-top: 1rem;
+    width: 45%;
+    height: 45%;
+    margin-bottom: 1rem;
+}
