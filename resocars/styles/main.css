@@ -215,3 +215,32 @@ body {
     padding: 1rem 0;
     margin-top: auto;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-left,
+.video-right {
+    flex: 1;
+    max-width: 300px;
+}
+
+.video-left video,
+.video-right video {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.hero-content {
+    flex: 2;
+    text-align: center;
+}
+
