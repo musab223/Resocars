@@ -244,3 +244,19 @@ body {
     text-align: center;
 }
 
+
+
+.floating-logo {
+    position: absolute;
+    top: 80px;         /* Abstand von oben */
+    left: 20%;         /* Stelle es dort hin, wo dein schwarzer Kreis ist */
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.floating-logo img {
+    width: 80px;
+    height: auto;
+    opacity: 0.9;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
