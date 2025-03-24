@@ -248,14 +248,14 @@ body {
 
 .floating-logo {
     position: absolute;
-    top: 100px;           /* Abstand von oben */
+    top: 50px;           /* Abstand von oben */
     left: 50%;            /* exakt zentriert */
     transform: translateX(-50%);
     z-index: 10;
 }
 
 .floating-logo img {
-    width: 120px;         /* größer machen */
+    width: 300px;         /* größer machen */
     height: auto;
     opacity: 0.95;
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
