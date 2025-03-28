@@ -176,6 +176,14 @@ body {
     color: var(--primary-color);
 }
 
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; /* Abstand zwischen Logo und Navigation */
+}
+
+
 .hero-content {
     max-width: 600px;
 }
