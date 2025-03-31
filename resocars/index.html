@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/animations.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -28,38 +30,37 @@
         </div>
     </header>
 
-    <section class="hero">
-    <div class="video-left">
-        <video autoplay muted loop>
-            <source src="videos/video-links.mov" type="video/mp4">
-            Dein Browser unterstützt dieses Videoformat nicht.
-        </video>
-    </div>
+    <main class="hero">
+        <div class="video-left">
+            <video autoplay muted loop>
+                <source src="videos/video-links.mov" type="video/mp4">
+                Dein Browser unterstützt dieses Videoformat nicht.
+            </video>
+        </div>
+
+        <div class="hero-content">
+            <!-- ✨ NEUES LOGO OBEN LINKS ✨ -->
+            <div class="floating-logo">
+                <img src="images/transparent.png" alt="Logo" />
+            </div>
+            <h1 class="hero-title">Willkommen bei Resocars</h1>
+            <p class="hero-text">Entdecken Sie unsere exklusive Flotte und buchen Sie Ihr Traumauto.</p>
+            <a href="showroom.html" class="hero-button">Jetzt entdecken</a>
+        </div>
+
+        <div class="video-right">
+            <video autoplay muted loop>
+                <source src="videos/video-rechts.mov" type="video/mp4">
+                Dein Browser unterstützt dieses Videoformat nicht.
+            </video>
+        </div>
+    </main>
 
 
-        <!-- ✨ NEUES LOGO OBEN LINKS ✨ -->
-    <div class="floating-logo">
-        <img src="images/transparent.png" alt="Logo" />
-    </div>
-
-    <div class="hero-content">
-        <h1 class="hero-title">Willkommen bei Resocars</h1>
-        <p class="hero-text">Entdecken Sie unsere exklusive Flotte und buchen Sie Ihr Traumauto.</p>
-        <a href="showroom.html" class="hero-button">Jetzt entdecken</a>
-    </div>
-
-    <div class="video-right">
-        <video autoplay muted loop>
-            <source src="videos/video-rechts.mov" type="video/mp4">
-            Dein Browser unterstützt dieses Videoformat nicht.
-        </video>
-    </div>
-</section>
-
-
-<footer class="footer">
-    <div class="container" style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
-        <p>&copy; 2025 Resocars. Alle Rechte vorbehalten.</p>
-        <a href="impressum.html" class="hero-button" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Impressum</a>
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="container"
+            style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+            <p>&copy; 2025 Resocars. Alle Rechte vorbehalten.</p>
+            <a href="impressum.html" class="hero-button" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Impressum</a>
+        </div>
+    </footer>
